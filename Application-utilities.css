@@ -18,6 +18,7 @@ html{
 
 body{
     font-family: 'Roboto', sans-serif;
+    /* background-color: var(--color-background); */
 
     /* 100,300,400,500 */
 }
@@ -25,8 +26,14 @@ body{
 /*---  ---------- Define Colors & Variables ---------------/
 -----  ------------------------------------------------------------- */
 :root{
-    --color-blue: #3DCFD3;
-
+    --color-primary:#A0E7E5;
+    --color-light:#FBE7C6;
+    --color-green:#B4F8C8;
+    --color-pink:#FFAEBC;
+    --color-gray: #6C6C6C;
+    --color-black: #141414;
+    --color-background:#f6f6f9;
+    --color-heading:#2b82e7;
     --letter-spacing: 0.09rem;
 }
 
