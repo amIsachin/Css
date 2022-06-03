@@ -58,3 +58,9 @@ body{
 .space-between{
     justify-content: space-between;
 }
+
+/*---  ---------- Grid ---------------/
+-----  ------------------------------------------------------------- */
+.grid{
+    display: grid;
+}

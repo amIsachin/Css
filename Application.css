@@ -1,6 +1,6 @@
 @import './Application-utilities.css';
 
-/*--  -------- header section -----------/
+/*--  -------- header-section -----------/
 ----  --------------------------------------------------------------  */
 header.header-section{
     margin-top: 0.5rem;
@@ -74,7 +74,14 @@ header.header-section .container nav.navigation .nav-wrapper .right .search-bar 
     color: var(--color-gray);
 }
 
-header.header-section .container nav.navigation .nav-wrapper .right .sign-up{
+header.header-section .container nav.navigation .nav-wrapper .right .sign-up > a{
+    font-size: 1.6rem;
     cursor: pointer;
-    font-size: 1.8rem;
+    margin-left: 3rem;
+}
+
+/*--  -------- main-section -----------/
+----  --------------------------------------------------------------  */
+main.main-section .content-wrapper{
+    grid-template-columns: repeat(4,1fr);
 }
