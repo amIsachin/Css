@@ -82,6 +82,41 @@ header.header-section .container nav.navigation .nav-wrapper .right .sign-up > a
 
 /*--  -------- main-section -----------/
 ----  --------------------------------------------------------------  */
+main.main-section{
+    border-top: 5px solid var(--color-heading);
+    background: var(--color-background);
+    height: 95vh;
+}
+
 main.main-section .content-wrapper{
-    grid-template-columns: repeat(4,1fr);
+    margin-top: 1rem;
+    grid-template-columns: 22rem 1fr 1fr 1fr;
+    grid-template-rows: repeat(4,1fr);
+    gap: 1rem;
+}
+
+main.main-section .content-wrapper .side-bar{
+    grid-row: 1/-1;
+    border: 1px solid red;
+}
+
+main.main-section .content-wrapper .side-bar a img{
+    width: 21.8rem;
+    height: 4rem;
+    border-bottom: 5px solid var(--color-heading);
+}
+
+main.main-section .content-wrapper .side-bar .aside-links a{
+    padding: 1rem 0 1rem 1rem;
+}
+
+main.main-section .content-wrapper .message{
+    border: 1px solid green;
+    grid-column: 2/-1;
+}
+
+main.main-section .content-wrapper .main-content{
+    border: 1px solid orange;
+    grid-column: 2/-1;
+    grid-row: 2/-1;
 }
