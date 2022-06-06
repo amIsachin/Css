@@ -83,40 +83,70 @@ header.header-section .container nav.navigation .nav-wrapper .right .sign-up > a
 /*--  -------- main-section -----------/
 ----  --------------------------------------------------------------  */
 main.main-section{
-    border-top: 5px solid var(--color-heading);
+    border-top: 3px solid var(--color-heading);
     background: var(--color-background);
-    height: 95vh;
+    height: 93vh;
 }
 
 main.main-section .content-wrapper{
     margin-top: 1rem;
     grid-template-columns: 22rem 1fr 1fr 1fr;
     grid-template-rows: repeat(4,1fr);
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
 main.main-section .content-wrapper .side-bar{
     grid-row: 1/-1;
-    border: 1px solid red;
 }
 
 main.main-section .content-wrapper .side-bar a img{
     width: 21.8rem;
     height: 4rem;
-    border-bottom: 5px solid var(--color-heading);
+    border-bottom: 1px solid var(--color-heading);
+}
+
+main.main-section .content-wrapper .side-bar .aside-links{
+    position: relative;
+    height: 83vh;
 }
 
 main.main-section .content-wrapper .side-bar .aside-links a{
-    padding: 1rem 0 1rem 1rem;
+    font-size: 1.5rem;
+    margin-top: 1.3rem;
+    color: var(--color-gray);
+    text-decoration: none;
+    letter-spacing: var(--letter-spacing);
+    padding: 1rem 0 1rem 0;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+main.main-section .content-wrapper .side-bar .aside-links a:hover{
+    margin-left: 1rem;
+    /* text-decoration: underline; */
+    border-bottom: 0.1px solid var(--color-gray);
+    background-color: var(--color-primary);
+    border-left: 5px solid var(--color-heading);
+}
+
+main.main-section .content-wrapper .side-bar .aside-links a i{
+    margin: 0 0.5rem 0 0.4rem;
+}
+
+main.main-section .content-wrapper .side-bar .aside-links a:last-child{
+    position: absolute;
+    bottom: 2rem;
+    width: 95%;
 }
 
 main.main-section .content-wrapper .message{
     border: 1px solid green;
     grid-column: 2/-1;
+
 }
 
 main.main-section .content-wrapper .main-content{
-    border: 1px solid orange;
+    border: 1px solid green;
     grid-column: 2/-1;
     grid-row: 2/-1;
 }
