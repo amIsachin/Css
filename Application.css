@@ -90,7 +90,7 @@ main.main-section{
 
 main.main-section .content-wrapper{
     margin-top: 1rem;
-    grid-template-columns: 22rem 1fr 1fr 1fr;
+    grid-template-columns: 22rem repeat(3,1fr);
     grid-template-rows: repeat(4,1fr);
     gap: 1.5rem;
 }
@@ -123,10 +123,7 @@ main.main-section .content-wrapper .side-bar .aside-links a{
 
 main.main-section .content-wrapper .side-bar .aside-links a:hover{
     margin-left: 1rem;
-    /* text-decoration: underline; */
-    border-bottom: 0.1px solid var(--color-gray);
-    background-color: var(--color-primary);
-    border-left: 5px solid var(--color-heading);
+
 }
 
 main.main-section .content-wrapper .side-bar .aside-links a i{
@@ -149,4 +146,51 @@ main.main-section .content-wrapper .main-content{
     border: 1px solid green;
     grid-column: 2/-1;
     grid-row: 2/-1;
+}
+
+main.main-section .content-wrapper .main-content .table-container .table{
+    text-align: center;
+    padding: 1rem;
+    margin: 0.5rem;
+    width: 80%;
+    background-color: var(--color-primary);
+}
+
+main.main-section .content-wrapper .main-content .table-container .table thead tr th{
+    font-size: 1.8rem;
+    color: var(--color-black);
+    letter-spacing: var(--letter-spacing);
+    padding-bottom: 0.5rem;
+}
+
+main.main-section .content-wrapper .main-content .table-container .table thead tr{
+    background-color: var(--color-heading);
+}
+
+main.main-section .content-wrapper .main-content .table-container .table tbody tr td{
+    font-size: 1.2rem;
+    color: var(--color-gray);
+    letter-spacing: var(--letter-spacing);
+    padding: 0.4rem;
+    border-bottom: 1px solid var(--color-thin-border);
+}
+
+main.main-section .content-wrapper .main-content .table-container .table tbody tr:last-child td{
+    border-bottom: none;    
+}
+
+main.main-section .content-wrapper .main-content .table-container .table tbody tr td > a{
+    text-decoration: none;
+    color: var(--color-gray);
+    letter-spacing: var(--letter-spacing);
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+
+main.main-section .content-wrapper .main-content .table-container .table tbody tr td a:first-child{
+   color: var(--color-heading);
+}
+
+main.main-section .content-wrapper .main-content .table-container .table tbody tr td a.middle{
+    color: var(--color-pink);
 }
