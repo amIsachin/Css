@@ -148,11 +148,15 @@ main.main-section .content-wrapper .main-content{
     grid-row: 2/-1;
 }
 
+main.main-section .content-wrapper .main-content .table-container{
+    width: 80%;
+}
+
 main.main-section .content-wrapper .main-content .table-container .table{
     text-align: center;
     padding: 1rem;
     margin: 0.5rem;
-    width: 80%;
+    width: 100%;
     background-color: var(--color-primary);
 }
 
@@ -161,10 +165,6 @@ main.main-section .content-wrapper .main-content .table-container .table thead t
     color: var(--color-black);
     letter-spacing: var(--letter-spacing);
     padding-bottom: 0.5rem;
-}
-
-main.main-section .content-wrapper .main-content .table-container .table thead tr{
-    background-color: var(--color-heading);
 }
 
 main.main-section .content-wrapper .main-content .table-container .table tbody tr td{
@@ -188,9 +188,28 @@ main.main-section .content-wrapper .main-content .table-container .table tbody t
 }
 
 main.main-section .content-wrapper .main-content .table-container .table tbody tr td a:first-child{
-   color: var(--color-heading);
+   color: green;
 }
 
 main.main-section .content-wrapper .main-content .table-container .table tbody tr td a.middle{
-    color: var(--color-pink);
+    color: red;
+}
+
+main.main-section .content-wrapper .main-content .table-container .table tbody tr td a:last-child{
+    color: darkmagenta;
+}
+
+/* action task */
+.main-content .action-task{
+    background-color: var(--color-green);
+    width: 18%;
+}
+
+.main-content .action-task .move-links > a{
+    font-size: 1.3rem;
+    padding: 1.3rem;
+    letter-spacing: var(--letter-spacing);
+    text-decoration: none;
+    color: var(--color-gray);
+    cursor: pointer;
 }
