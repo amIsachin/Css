@@ -136,28 +136,59 @@ main.main-section .content-wrapper .side-bar .aside-links a:last-child{
     width: 95%;
 }
 
-main.main-section .content-wrapper .message{
+main.main-section .content-wrapper .messages{
+    grid-template-columns: 30rem repeat(1, 1fr);
     border: 1px solid green;
     grid-column: 2/-1;
-
+    border-top: 3px solid var(--color-black);
+    border-left: 1px solid var(--color-thin-border);
+    border-bottom: 1px solid var(--color-thin-border);
+    border-right: 1px solid var(--color-thin-border);
+    background-color: var(--color-thin-border);
 }
 
+main.main-section .content-wrapper .messages .notification > a{
+    font-size: 1.5rem;
+    color: var(--color-gray);
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+main.main-section .content-wrapper .messages .action-task .move-links .similar-links > a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: var(--color-gray);
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+main.main-section .content-wrapper .messages .action-task .move-links .similar-links > a:hover{
+    color: var(--color-heading);
+}
+
+/* Main content */
 main.main-section .content-wrapper .main-content{
     border: 1px solid green;
     grid-column: 2/-1;
     grid-row: 2/-1;
+
+    border-top: 3px solid var(--color-black);
+    border-left: 1px solid var(--color-thin-border);
+    border-bottom: 1px solid var(--color-thin-border);
+    border-right: 1px solid var(--color-thin-border);
 }
 
 main.main-section .content-wrapper .main-content .table-container{
-    width: 80%;
+    width: 100%;
 }
 
 main.main-section .content-wrapper .main-content .table-container .table{
     text-align: center;
     padding: 1rem;
-    margin: 0.5rem;
+    /* margin: 0.5rem; */
     width: 100%;
     background-color: var(--color-primary);
+    /* border-top: 3px solid var(--color-black); */
 }
 
 main.main-section .content-wrapper .main-content .table-container .table thead tr th{
@@ -197,19 +228,4 @@ main.main-section .content-wrapper .main-content .table-container .table tbody t
 
 main.main-section .content-wrapper .main-content .table-container .table tbody tr td a:last-child{
     color: darkmagenta;
-}
-
-/* action task */
-.main-content .action-task{
-    background-color: var(--color-green);
-    width: 18%;
-}
-
-.main-content .action-task .move-links > a{
-    font-size: 1.3rem;
-    padding: 1.3rem;
-    letter-spacing: var(--letter-spacing);
-    text-decoration: none;
-    color: var(--color-gray);
-    cursor: pointer;
 }
