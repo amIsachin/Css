@@ -39,6 +39,11 @@ header.header-section .container nav.navigation .nav-wrapper .left  a {
     text-decoration-line: none;
     padding: 1rem;
     font-weight: 300;
+    transition: all .3s ease;
+}
+
+header.header-section .container nav.navigation .nav-wrapper .left  a:hover{
+    color: var(--color-heading);
 }
 
 header.header-section .container nav.navigation .nav-wrapper .left span.divider{
@@ -78,6 +83,7 @@ header.header-section .container nav.navigation .nav-wrapper .right .sign-up > a
     font-size: 1.6rem;
     cursor: pointer;
     margin-left: 3rem;
+    color: var(--color-gray);
 }
 
 /*--  -------- main-section -----------/
@@ -152,6 +158,13 @@ main.main-section .content-wrapper .messages .notification > a{
     color: var(--color-gray);
     text-decoration: none;
     padding: 0.5rem;
+    cursor: pointer;
+    display: inline-block;
+    transition: all .3s ease;
+}
+
+main.main-section .content-wrapper .messages .notification > a:hover{
+    color: var(--color-heading);
 }
 
 main.main-section .content-wrapper .messages .action-task .move-links .similar-links > a{
@@ -160,6 +173,7 @@ main.main-section .content-wrapper .messages .action-task .move-links .similar-l
     color: var(--color-gray);
     padding: 0.5rem;
     cursor: pointer;
+    transition: all .3s ease;
 }
 
 main.main-section .content-wrapper .messages .action-task .move-links .similar-links > a:hover{
@@ -219,13 +233,13 @@ main.main-section .content-wrapper .main-content .table-container .table tbody t
 }
 
 main.main-section .content-wrapper .main-content .table-container .table tbody tr td a:first-child{
-   color: green;
+    color: var(--color-edit);
 }
 
 main.main-section .content-wrapper .main-content .table-container .table tbody tr td a.middle{
-    color: red;
+    color: var(--color-delete);
 }
 
 main.main-section .content-wrapper .main-content .table-container .table tbody tr td a:last-child{
-    color: darkmagenta;
+    color: var(--color-details);
 }
