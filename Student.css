@@ -1,0 +1,30 @@
+@import './Student-utilities.css';
+
+/*---  ---------- Navigation ---------------/
+-----  ------------------------------------------------------------- */
+.navigation .brand a img{
+    height: 4rem;
+}
+
+.navigation .nav-wrapper ul.nav-list{
+    list-style-type: none;
+    align-items: center;
+}
+
+.navigation .nav-wrapper ul.nav-list li a{
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+.navigation .nav-wrapper ul.nav-list li a:hover{
+    color: var(--primary);
+}
+
+.navigation .nav-wrapper ul.nav-list li{
+    margin-left: 3rem;
+    padding: 2rem 0;
+}
+
+.navigation ul.drop-down-list{
+    list-style-type: none;
+}
