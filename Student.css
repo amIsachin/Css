@@ -2,6 +2,10 @@
 
 /*---  ---------- Navigation ---------------/
 -----  ------------------------------------------------------------- */
+.navigation{
+    background-color: var(--yellow);
+}
+    
 .navigation .brand a img{
     height: 4rem;
 }
@@ -12,7 +16,11 @@
 }
 
 .navigation .nav-wrapper ul.nav-list li a{
+    font-size: 1.4rem;
     text-decoration: none;
+    color: var(--text-gray);
+    letter-spacing: var(--letter-sapcing);
+    cursor: pointer;
     transition: all .3s ease;
 }
 
@@ -21,10 +29,49 @@
 }
 
 .navigation .nav-wrapper ul.nav-list li{
-    margin-left: 3rem;
-    padding: 2rem 0;
+    margin-left: 2.5rem;
+    padding: 1.7rem 0;
+    position: relative;
 }
 
 .navigation ul.drop-down-list{
     list-style-type: none;
+    display: block;
+    background-color: var(--primary);
+    padding: 1rem 1.8rem;
+    letter-spacing: var(--letter-sapcing);
+    cursor: pointer;
+    position: absolute;
+    width: max-content;
+    z-index: 9999;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    pointer-events: none;
+}
+
+.navigation .nav-wrapper ul.drop-down-list li{
+    margin-left: 0;
+    padding: 1rem 0.2rem;
+}
+
+.navigation .nav-wrapper ul.drop-down-list li a{
+    color: var(--yellow);
+}
+
+.navigation .nav-wrapper ul.nav-list li:hover .drop-down-list{
+    opacity: 1;
+    pointer-events: auto;
+    animation: moveUp .5s ease-in-out forwards;
+}
+
+@keyframes moveUp{
+    0%{
+        opacity: 0;
+        transform: translateX(-50%) translateY(4rem);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(-50%) translateY((2rem));
+    }
 }

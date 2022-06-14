@@ -32,12 +32,16 @@ body{
     --yellow: #FFF4BD;
     --pure: #fff;
     --black: #232323;
+
+    --text-gray: #6C6C6C;
+
+    --letter-sapcing: 0.1rem;
 }
 
 /*---  ---------- containers ---------------/
 -----  ------------------------------------------------------------- */
 .container{
-    width: 1153px;
+    width: 1300px;
     max-width: 90%;
     margin: 0 auto;
 }
