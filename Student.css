@@ -84,12 +84,12 @@ main.main-section .main-slider{
 }
 
 /* cource-slider */
-main.main-section .cource-slider{
+main.main-section .course-slider{
     max-width: 100%;
     height: 40vh;
 }
 
-main.main-section .cource-slider a img{
+main.main-section .course-slider a img{
     width: 22rem;
 }
 
