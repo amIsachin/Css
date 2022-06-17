@@ -21,6 +21,8 @@ body{
     /* background-color: var(--color-background); */
 
     /* 100,300,400,500 */
+
+    height: 500vh;
 }
 
 /*---  ---------- Define Colors & Variables ---------------/
@@ -54,12 +56,28 @@ body{
     margin-top: 1rem;
 }
 
+/* paddings */
+.p-1{
+    padding: 1rem;
+}
+
 /*---  ---------- Classes ---------------/
 -----  ------------------------------------------------------------- */
 .thin-border{
     border: 1px solid var(--thin-border);
 }
 
+.thin-border-right{
+    border-right: 1px solid var(--thin-border);
+}
+
+.heading{
+    contain: '';
+    font-size: 4rem;
+    color: var(--text-gray);
+    letter-spacing: var(--letter-sapcing);
+    
+}
 
 /*---  ---------- flex ---------------/
 -----  ------------------------------------------------------------- */
