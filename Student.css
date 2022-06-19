@@ -124,3 +124,35 @@ main.main-section .course-slider a img{
     height: max-content;
     object-fit: cover;
   }
+
+  /* main swiper END */
+
+/*---  ---------- section-news ---------------/
+-----  ------------------------------------------------------------- */
+section.section-news .news-wrapper .news p{
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 2rem;
+    color: var(--purple);
+    letter-spacing: var(--letter-sapcing);
+}
+
+/*---  ---------- section-alert ---------------/
+-----  ------------------------------------------------------------- */
+section.section-alert .container .addmission-wrapper{
+    background-color: var(--thin-border);
+}
+
+section.section-alert .addmission-wrapper .addmission-form{
+    padding: 1rem 1rem 0 0;
+}
+
+section.section-alert .addmission-wrapper .addmission-form p {
+    font-size: 2rem;
+    color: var(--text-gray);
+}
+
+section.section-alert .addmission-wrapper .examination-form p{ 
+    font-size: 2rem;
+    color: var(--text-gray);
+}
