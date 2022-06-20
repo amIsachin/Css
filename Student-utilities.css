@@ -84,6 +84,20 @@ body{
     padding: 1rem;
 }
 
+/*---  ---------- h1 to h6 ---------------/
+-----  ------------------------------------------------------------- */
+.h4{
+    font-size: 1.7rem;
+    color: var(--pure);
+    letter-spacing: var(--letter-sapcing);
+}
+
+.heading{
+    font-size: 2.5rem;
+    color: var(--text-gray);
+    letter-spacing: var(--letter-sapcing);
+}
+
 /*---  ---------- buttons ---------------/
 -----  ------------------------------------------------------------- */
 .a-btn{
@@ -113,12 +127,6 @@ body{
 
 .dark-border-top{
     border-top: 3px solid var(--primary);
-}
-
-.heading{
-    font-size: 2.5rem;
-    color: var(--text-gray);
-    letter-spacing: var(--letter-sapcing);
 }
 
 .display-inline-block{

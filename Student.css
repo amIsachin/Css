@@ -156,3 +156,35 @@ section.section-alert .addmission-wrapper .examination-form p{
     font-size: 2rem;
     color: var(--text-gray);
 }
+
+section.section-alert .addmission-wrapper strong{
+    animation: changeColor .8s ease-in-out infinite;
+}
+
+@keyframes changeColor{
+    0%{
+        color: var(--rose);
+    }
+    100%{
+        color: var(--color-dark-blue);
+    }
+}
+
+/*---  ---------- footer ---------------/
+-----  ------------------------------------------------------------- */
+footer.footer{
+    background-color: var(--primary);
+    height: 30vh;
+}
+
+footer.footer .footer-wrapper .slide.img-slide a img{
+    display: inline;
+    width: 20%;
+}
+
+footer.footer .footer-wrapper .slide a.links{
+    font-size: 1.3rem;
+    color: var(--primary);
+    text-decoration: none;
+    padding: 0.5rem 0 0 0;    
+}
