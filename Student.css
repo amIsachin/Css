@@ -174,17 +174,34 @@ section.section-alert .addmission-wrapper strong{
 -----  ------------------------------------------------------------- */
 footer.footer{
     background-color: var(--primary);
-    height: 30vh;
-}
-
-footer.footer .footer-wrapper .slide.img-slide a img{
-    display: inline;
-    width: 20%;
 }
 
 footer.footer .footer-wrapper .slide a.links{
-    font-size: 1.3rem;
-    color: var(--primary);
+    font-size: 1.5rem;
+    color: var(--text-gray);
     text-decoration: none;
-    padding: 0.5rem 0 0 0;    
+    padding: 0.5rem 0 0 0;
+    transition: all .3s ease;
+}
+
+footer.footer .footer-wrapper .slide a.links:hover{
+    color: var(--color-dark-blue);
+    text-decoration: underline;
+}
+
+footer.footer .container .footer-bottom a img{
+    width: 8rem;
+}
+
+.footer.footer .container .footer-bottom .foot-bottom-links a{
+    font-size: 1.2rem;
+    color: var(--black);
+    margin-left: 3rem;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+.footer.footer .container .footer-bottom .foot-bottom-links a:hover{
+    color: var(--color-dark-blue);
+    text-decoration: underline;
 }

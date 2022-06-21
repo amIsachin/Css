@@ -21,8 +21,6 @@ body{
     /* background-color: var(--color-background); */
 
     /* 100,300,400,500 */
-
-    height: 500vh;
 }
 
 /*---  ---------- Define Colors & Variables ---------------/
@@ -76,19 +74,23 @@ body{
 }
 
 /* paddings */
-.p-1{
+.p{
     padding: 1rem;
 }
 
-.p{
-    padding: 1rem;
+.p-5{
+    padding: 3rem;
+}
+
+.pb-5{
+    padding-bottom: 1rem;
 }
 
 /*---  ---------- h1 to h6 ---------------/
 -----  ------------------------------------------------------------- */
 .h4{
     font-size: 1.7rem;
-    color: var(--pure);
+    color: var(--black);
     letter-spacing: var(--letter-sapcing);
 }
 
@@ -149,6 +151,10 @@ body{
 
 .justify-between{
     justify-content: space-between;
+}
+
+.justify-evenly{
+    justify-content: space-evenly;
 }
 
 .flex-wrap{
