@@ -33,9 +33,11 @@ body{
 
     --color-gray: #6C6C6C;
     --color-black: #141414;
+    --pure: #fff;
 
     --color-background:#f6f6f9;
     --color-heading:#2b82e7;
+    --color-dark-blue:#2b82e7;
 
     --color-edit: rgb(15, 182, 15);
     --color-delete:rgb(255, 41, 41);
@@ -66,6 +68,14 @@ body{
     color: var(--color-black);
 }
 
+.display-block{
+    display: block;
+}
+
+.mb-1{
+    margin-bottom: 1rem;
+}
+
 /*---  ---------- flex ---------------/
 -----  ------------------------------------------------------------- */
 .flex{
@@ -86,6 +96,10 @@ body{
 
 .space-between{
     justify-content: space-between;
+}
+
+.justify-end{
+    justify-content: end;
 }
 
 /*---  ---------- Grid ---------------/
