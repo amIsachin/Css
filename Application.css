@@ -243,3 +243,16 @@ main.main-section .content-wrapper .main-content .table-container .table tbody t
 main.main-section .content-wrapper .main-content .table-container .table tbody tr td a:last-child{
     color: var(--color-details);
 }
+
+/*--  --------- Congratulations Html file is Congratulation -----------
+----  -------------------------------------------------------------------------------*/
+section.section-congratulation .container{
+    position: relative;
+}
+
+section.section-congratulation .congratulation-wrapper{
+    position: absolute;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+}

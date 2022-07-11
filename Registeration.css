@@ -6,8 +6,13 @@
     width: 90%;
 }
 
-body{
+/* body{
     background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+} */
+
+section.section-form{
+    background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+    height: auto;
 }
 
 section.section-form .form-wrapper h2.heading{
