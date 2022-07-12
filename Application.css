@@ -246,13 +246,37 @@ main.main-section .content-wrapper .main-content .table-container .table tbody t
 
 /*--  --------- Congratulations Html file is Congratulation -----------
 ----  -------------------------------------------------------------------------------*/
-section.section-congratulation .container{
+section.section-congratulation{
     position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--color-background);
 }
 
 section.section-congratulation .congratulation-wrapper{
+    width: 60vw;
+    height: 60vh;
     position: absolute;
     left: 50%;
-    transform: translateY(-50%);
-    transform: translateX(-50%);
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+section.section-congratulation .congratulation-wrapper h2{
+    font-size: 4rem;
+    letter-spacing: var(--letter-spacing);
+}
+
+section.section-congratulation .congratulation-wrapper h2 i{
+    color: var(--color-details);
+}
+
+section.section-congratulation .congratulation-wrapper p{
+    font-size: 3rem;
+}
+
+section.section-congratulation .congratulation-wrapper p span{
+    color: var(--color-details);
+    border-bottom: 2px dotted var(--color-details);
 }
